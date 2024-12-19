@@ -1,0 +1,20 @@
+{
+    "name": "maya/chatbot",
+    "description": "A medical chatbot application.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Maya\\Chatbot\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mayonaisey",
+            "email": "mayaelmosalamy@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "bramus/router": "~1.6"
+    }
+}
